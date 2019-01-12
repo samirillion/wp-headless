@@ -3,6 +3,7 @@ Headless Wordpress Theme
 
 Not too much going on right now, the main thing is the plugins that you add to work with this theme:
 
+```
 +----------------------------------+----------+-----------+---------+
 | acf-to-rest-api-master           | active   | none      | 3.1.0   |
 | acf-to-rest-api-recursive-master | active   | none      | 1.0.0   |
@@ -20,6 +21,7 @@ Not too much going on right now, the main thing is the plugins that you add to w
 | wp-security-audit-log            | active   | none      | 3.3.0.2 |
 | wp-migrate-db-pro-compatibility  | must-use | none      | 1.2     |
 +----------------------------------+----------+-----------+---------+
+```
 
 If you want to be able to access ACF relationship field post data, you need to make a change to the 
 acf-to-rest-api-recursive-master plugin. In the plugin.php file, change the hook to wp_loaded. Don't know why 
