@@ -11,16 +11,3 @@ function cc_mime_types($mimes)
     return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
-
-// add_filter( 'acf/rest_api/member/get_fields', function( $data, $request, $response ) {
-//     // if ( $response instanceof WP_REST_Response ) {
-//     //     $data = $response->get_data();
-//     // }
-
-//     // if( isset( $data['acf'] ) ) {
-//     //     $data['acf']['favorite_glove'] = "cool";
-//     // }
-//   error_log($data);
-
-//     return $data;
-// }, 10, 3 );
